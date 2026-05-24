@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover"
+  />
+
+  <title>Grad Gala 2026</title>
+
+  <!-- FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+
+  <div class="ecard-shell">
+
+    <main class="ecard">
+
+      <!-- HEADER -->
+      <header class="ecard__header">
+
+        <img
+          class="ecard__logo"
+          src="Logo.png"
+          alt="Grad Gala 2026"
+        />
+
+        <h1 class="ecard__title">
+          Event Snap Lenses
+        </h1>
+
+        <p class="ecard__subtitle">
+          Grad 2026
+        </p>
+
+      </header>
+
+      <!-- BUTTONS -->
+      <nav class="ecard__menu">
+
+        <!-- FIRST BUTTON CONNECTED -->
+        <a class="ecard__btn" href="grad-names.html">
+
+          <span class="ecard__btn-label">
+            Grad Names Lense
+          </span>
+
+          <span class="ecard__btn-chevron">
+            ›
+          </span>
+
+        </a>
+
+        <!-- SECOND -->
+        <a class="ecard__btn" href="https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=97787758e16046ea9f7d19f0136ac1b0&metadata=01">
+
+          <span class="ecard__btn-label">
+            All Names Lense
+          </span>
+
+          <span class="ecard__btn-chevron">
+            ›
+          </span>
+
+        </a>
+
+        <!-- THIRD -->
+        <a class="ecard__btn" href="deem-lenses.html">
+
+  <span class="ecard__btn-label">
+    Deem Lenses
+  </span>
+
+  <span class="ecard__btn-chevron">
+    ›
+  </span>
+
+</a>
+
+        <!-- FOURTH -->
+        <a class="ecard__btn" href="https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=2ad38755b15d4c2986967391d5c0f0ba&metadata=01">
+
+          <span class="ecard__btn-label">
+            Grad 2026 Lense
+          </span>
+
+          <span class="ecard__btn-chevron">
+            ›
+          </span>
+
+        </a>
+
+        <!-- FIFTH -->
+        <a class="ecard__btn" href="https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=3e5b1cc478fb41b2b29106bae91889d5&metadata=01">
+
+          <span class="ecard__btn-label">
+            Height &amp; Jewels Lense
+          </span>
+
+          <span class="ecard__btn-chevron">
+            ›
+          </span>
+
+        </a>
+
+      </nav>
+
+      <!-- FOOTER -->
+      <footer class="ecard__footer">
+
+        <svg class="ecard__lens-icon" viewBox="0 0 64 64">
+
+          <img
+  class="ecard__lens-icon"
+  src="camera.svg"
+  alt=""
+/>
+
+        </svg>
+
+        <p class="ecard__footer-text">
+
+          <span>
+            إضغط على أي خيار
+          </span>
+
+          <span>
+            لإختيار عدستك
+          </span>
+
+        </p>
+
+      </footer>
+
+    </main>
+
+  </div>
+
+  <!-- SCALE SCRIPT -->
+
+  <script>
+
+    function fitCard(){
+
+      const scale = Math.min(
+        window.innerWidth / 1080,
+        window.innerHeight / 1920,
+        1
+      );
+
+      document.documentElement.style.setProperty(
+        "--scale",
+        scale
+      );
+
+    }
+
+    fitCard();
+
+    window.addEventListener("resize", fitCard);
+
+  </script>
+
+</body>
+</html>

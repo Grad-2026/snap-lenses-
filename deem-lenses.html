@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover"
+  />
+
+  <title>Deem Lenses</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+
+  <div class="ecard-shell">
+
+    <main class="deem-page">
+
+      <!-- BACK -->
+      <a class="back-btn" href="index.html">
+        ‹
+      </a>
+
+      <!-- HEADER -->
+      <div class="deem-header">
+
+        <img
+          class="deem-logo"
+          src="Logo.png"
+          alt=""
+        />
+
+      </div>
+
+      <!-- BUTTONS -->
+      <div class="deem-buttons">
+
+        <a class="deem-btn" href="https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=780b3fec0e32445fafd5e3bf0ba385c2&metadata=01">
+
+          <span>
+            Congratulations Deem
+          </span>
+
+          <b>›</b>
+
+        </a>
+
+        <a class="deem-btn" href="https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=1c4422dbe7c14bb18fa378089ceba834&metadata=01">
+
+          <span>
+            مبروك التخرج ديم
+          </span>
+
+          <b>›</b>
+
+        </a>
+
+        <a class="deem-btn" href="https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=6188dae1995a4e139f85f5f66c05e990&metadata=01">
+
+          <span>
+            ديم آل سعود
+          </span>
+
+          <b>›</b>
+
+        </a>
+
+      </div>
+
+    </main>
+
+  </div>
+
+  <script>
+
+    function fitCard(){
+
+      const scale = Math.min(
+        window.innerWidth / 1080,
+        window.innerHeight / 1920,
+        1
+      );
+
+      document.documentElement.style.setProperty(
+        "--scale",
+        scale
+      );
+
+    }
+
+    fitCard();
+
+    window.addEventListener("resize", fitCard);
+
+  </script>
+
+</body>
+</html>
